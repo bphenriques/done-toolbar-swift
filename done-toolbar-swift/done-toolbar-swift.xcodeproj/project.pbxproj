@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		20C718C51B765350007424F6 /* done-toolbar-swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C718C41B765350007424F6 /* done-toolbar-swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20C718CB1B765350007424F6 /* done-toolbar-swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C718BF1B765350007424F6 /* done-toolbar-swift.framework */; };
-		20C718D21B765350007424F6 /* done_toolbar_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C718D11B765350007424F6 /* done_toolbar_swiftTests.swift */; };
 		20C718DC1B765360007424F6 /* ToolbarWithDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C718DB1B765360007424F6 /* ToolbarWithDone.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		20C718C31B765350007424F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C718C41B765350007424F6 /* done-toolbar-swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "done-toolbar-swift.h"; sourceTree = "<group>"; };
 		20C718CA1B765350007424F6 /* done-toolbar-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "done-toolbar-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20C718D01B765350007424F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20C718D11B765350007424F6 /* done_toolbar_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = done_toolbar_swiftTests.swift; sourceTree = "<group>"; };
 		20C718DB1B765360007424F6 /* ToolbarWithDone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarWithDone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				20C718C11B765350007424F6 /* done-toolbar-swift */,
-				20C718CE1B765350007424F6 /* done-toolbar-swiftTests */,
 				20C718C01B765350007424F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,23 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				20C718C31B765350007424F6 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		20C718CE1B765350007424F6 /* done-toolbar-swiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				20C718D11B765350007424F6 /* done_toolbar_swiftTests.swift */,
-				20C718CF1B765350007424F6 /* Supporting Files */,
-			);
-			path = "done-toolbar-swiftTests";
-			sourceTree = "<group>";
-		};
-		20C718CF1B765350007424F6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				20C718D01B765350007424F6 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,7 +199,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C718D21B765350007424F6 /* done_toolbar_swiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

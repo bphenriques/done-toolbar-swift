@@ -1,12 +1,12 @@
 #
-#  pod spec lint done-toolbar-swift.podspec
+#  pod spec lint DoneToolBarSwift.podspec
 #
 
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.name         = "done-toolbar-swift"
-  s.version      = "0.9.2"
+  s.name         = "DoneToolBarSwift"
+  s.version      = "0.9.3"
   s.summary      = "Adds a done toolbar as inputAccessoryView."
 
   s.description  = <<-DESC
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/bphenriques/done-toolbar-swift.git", :tag => "0.9.2" }
+  s.source       = { :git => "https://github.com/bphenriques/done-toolbar-swift.git", :tag => "0.9.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

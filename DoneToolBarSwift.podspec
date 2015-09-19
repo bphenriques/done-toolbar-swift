@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "DoneToolBarSwift"
-  s.version      = "0.9.3"
+  s.version      = "0.9.4"
   s.summary      = "Adds a done toolbar as inputAccessoryView."
 
   s.description  = <<-DESC

@@ -24,7 +24,7 @@ public class ToolbarWithDone: UIToolbar {
         items = [flexBarButton, doneBarButton]
     }
     
-    public required init(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     

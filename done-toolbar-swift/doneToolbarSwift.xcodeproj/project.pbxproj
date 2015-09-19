@@ -8,25 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		20C718C51B765350007424F6 /* done-toolbar-swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C718C41B765350007424F6 /* done-toolbar-swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20C718CB1B765350007424F6 /* done-toolbar-swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C718BF1B765350007424F6 /* done-toolbar-swift.framework */; };
 		20C718DC1B765360007424F6 /* ToolbarWithDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C718DB1B765360007424F6 /* ToolbarWithDone.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		20C718CC1B765350007424F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20C718B61B765350007424F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 20C718BE1B765350007424F6;
-			remoteInfo = "done-toolbar-swift";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		20C718BF1B765350007424F6 /* done-toolbar-swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "done-toolbar-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C718BF1B765350007424F6 /* doneToolbarSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = doneToolbarSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C718C31B765350007424F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C718C41B765350007424F6 /* done-toolbar-swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "done-toolbar-swift.h"; sourceTree = "<group>"; };
-		20C718CA1B765350007424F6 /* done-toolbar-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "done-toolbar-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C718DB1B765360007424F6 /* ToolbarWithDone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarWithDone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,14 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20C718C71B765350007424F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20C718CB1B765350007424F6 /* done-toolbar-swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +40,7 @@
 		20C718C01B765350007424F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20C718BF1B765350007424F6 /* done-toolbar-swift.framework */,
-				20C718CA1B765350007424F6 /* done-toolbar-swiftTests.xctest */,
+				20C718BF1B765350007424F6 /* doneToolbarSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,9 +77,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		20C718BE1B765350007424F6 /* done-toolbar-swift */ = {
+		20C718BE1B765350007424F6 /* doneToolbarSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20C718D51B765350007424F6 /* Build configuration list for PBXNativeTarget "done-toolbar-swift" */;
+			buildConfigurationList = 20C718D51B765350007424F6 /* Build configuration list for PBXNativeTarget "doneToolbarSwift" */;
 			buildPhases = (
 				20C718BA1B765350007424F6 /* Sources */,
 				20C718BB1B765350007424F6 /* Frameworks */,
@@ -111,28 +90,10 @@
 			);
 			dependencies = (
 			);
-			name = "done-toolbar-swift";
+			name = doneToolbarSwift;
 			productName = "done-toolbar-swift";
-			productReference = 20C718BF1B765350007424F6 /* done-toolbar-swift.framework */;
+			productReference = 20C718BF1B765350007424F6 /* doneToolbarSwift.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		20C718C91B765350007424F6 /* done-toolbar-swiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 20C718D81B765350007424F6 /* Build configuration list for PBXNativeTarget "done-toolbar-swiftTests" */;
-			buildPhases = (
-				20C718C61B765350007424F6 /* Sources */,
-				20C718C71B765350007424F6 /* Frameworks */,
-				20C718C81B765350007424F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				20C718CD1B765350007424F6 /* PBXTargetDependency */,
-			);
-			name = "done-toolbar-swiftTests";
-			productName = "done-toolbar-swiftTests";
-			productReference = 20C718CA1B765350007424F6 /* done-toolbar-swiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -140,18 +101,16 @@
 		20C718B61B765350007424F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Bruno Henriques";
 				TargetAttributes = {
 					20C718BE1B765350007424F6 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					20C718C91B765350007424F6 = {
-						CreatedOnToolsVersion = 6.4;
-					};
 				};
 			};
-			buildConfigurationList = 20C718B91B765350007424F6 /* Build configuration list for PBXProject "done-toolbar-swift" */;
+			buildConfigurationList = 20C718B91B765350007424F6 /* Build configuration list for PBXProject "doneToolbarSwift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,21 +122,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20C718BE1B765350007424F6 /* done-toolbar-swift */,
-				20C718C91B765350007424F6 /* done-toolbar-swiftTests */,
+				20C718BE1B765350007424F6 /* doneToolbarSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		20C718BD1B765350007424F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20C718C81B765350007424F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,22 +146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20C718C61B765350007424F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		20C718CD1B765350007424F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 20C718BE1B765350007424F6 /* done-toolbar-swift */;
-			targetProxy = 20C718CC1B765350007424F6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		20C718D31B765350007424F6 /* Debug */ = {
@@ -235,6 +171,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -313,7 +250,8 @@
 				INFOPLIST_FILE = "done-toolbar-swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.doneToolbarSwift;
+				PRODUCT_NAME = doneToolbarSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -330,45 +268,16 @@
 				INFOPLIST_FILE = "done-toolbar-swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.doneToolbarSwift;
+				PRODUCT_NAME = doneToolbarSwift;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		20C718D91B765350007424F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "done-toolbar-swiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		20C718DA1B765350007424F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "done-toolbar-swiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20C718B91B765350007424F6 /* Build configuration list for PBXProject "done-toolbar-swift" */ = {
+		20C718B91B765350007424F6 /* Build configuration list for PBXProject "doneToolbarSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C718D31B765350007424F6 /* Debug */,
@@ -377,21 +286,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20C718D51B765350007424F6 /* Build configuration list for PBXNativeTarget "done-toolbar-swift" */ = {
+		20C718D51B765350007424F6 /* Build configuration list for PBXNativeTarget "doneToolbarSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20C718D61B765350007424F6 /* Debug */,
 				20C718D71B765350007424F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		20C718D81B765350007424F6 /* Build configuration list for PBXNativeTarget "done-toolbar-swiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				20C718D91B765350007424F6 /* Debug */,
-				20C718DA1B765350007424F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

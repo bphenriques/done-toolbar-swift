@@ -24,7 +24,7 @@ public class ToolbarWithDone: UIToolbar {
         items = [flexBarButton, doneBarButton]
     }
     
-    public required init(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -39,8 +39,9 @@ public class ToolbarWithDone: UIToolbar {
         return inputView
     }
     
-    //sender is a UIBarButtonItem
     internal func dismissInputView(sender: UIView){
-        viewsWithToolbar.map({ $0.endEditing(true) })
+        for v in viewsWithToolbar {
+            v.endEditing(true)
+        }
     }
 }

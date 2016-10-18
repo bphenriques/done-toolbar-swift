@@ -1,3 +1,19 @@
+# In retrospective, just use the following code instead of using this pod (dont forget to localise) :) One should always strive to do better :P
+
+```swift
+
+let keypadToolbar = UIToolbar()
+keypadToolbar.items = [
+    UIBarButtonItem(title: "Done", style: .done, target: myTextView, action: #selector(UITextField.resignFirstResponder)),
+]
+keypadToolbar.sizeToFit()
+myTextView.inputAccessoryView = keypadToolbar
+```
+___
+
+
+
+
 # done-toolbar-swift
 
 Add toolbar as inputAccessoryView with done button
